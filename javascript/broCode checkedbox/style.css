@@ -1,0 +1,25 @@
+#formBox{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(158, 102, 214);  
+    margin-left: auto;
+    margin-right: auto;
+   padding: 40px;
+    margin-top: 20px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+#mySubmit{
+    background-color: black;
+    border-radius: 100px;
+    padding: 12px;
+    width: 150px;
+    color:white;
+    border:none;
+}
+
+#mySubmit:hover{
+    background-color:aliceblue;
+    transition: width 2s;
+    color: black;
+}

@@ -1,0 +1,9 @@
+button{
+    color: black;
+    background-color: rgb(68, 98, 233);
+}
+
+.altColor{
+    color: rgb(68, 98, 233);
+    background-color: black;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="output"></div>
+
+    <script>
+      function process(array, callback) {
+        return array.map(callback);
+      }
+
+      const numbers = [1, 2, 3, 4, 5];
+      const double = (num) => num * 2;
+
+      const doubledNum = process(numbers, double);
+      document.getElementById("output").innerHTML = `
+      <p>Doubled Numbers:${doubledNum.join(", ")}<p>
+      `;
+    </script>
+  </body>
+</html>
